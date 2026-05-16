@@ -23,7 +23,6 @@ A high-conversion, fast, and responsive personal portfolio built with React, Vit
    ```bash
    npm run dev
    ```
-3. Open `http://localhost:5173` in your browser.
 
 ## Customization
 
@@ -32,37 +31,3 @@ Before deploying, make sure to update the placeholder links:
 2. Open `src/components/Contact.jsx` and replace the placeholder GitHub and LinkedIn links with your actual profile URLs.
 3. Open `index.html` and update the `og:url` with your actual live domain for SEO.
 
-## Deployment Instructions
-
-This portfolio is ready to be deployed to any modern static hosting provider.
-
-### Vercel (Recommended, Easiest)
-1. Push this repository to GitHub.
-2. Go to [Vercel](https://vercel.com/) and sign in.
-3. Click **Add New Project** and select your GitHub repository.
-4. The framework preset should automatically be detected as **Vite**.
-5. Click **Deploy**. Vercel will build and host your site automatically.
-
-### Netlify
-1. Push this repository to GitHub.
-2. Go to [Netlify](https://www.netlify.com/) and sign in.
-3. Click **Add new site** -> **Import an existing project**.
-4. Connect to GitHub and select your repository.
-5. Build settings:
-   - Base directory: `/`
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-6. Click **Deploy site**.
-
-### GitHub Pages
-If you want to use GitHub Pages, you need to add a base path in your `vite.config.js`:
-```javascript
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/your-repo-name/', // Replace with your repository name
-})
-```
-Then build the project (`npm run build`) and deploy the `dist` folder.
