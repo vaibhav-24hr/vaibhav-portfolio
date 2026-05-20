@@ -1,0 +1,61 @@
+.awards-section {
+  position: relative;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.award-card {
+  padding: var(--spacing-md);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.award-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.award-icon {
+  color: var(--accent-primary);
+  width: 24px;
+  height: 24px;
+}
+
+.award-type {
+  font-size: 0.875rem;
+  color: var(--accent-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.award-title {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.4;
+  flex-grow: 1;
+}
+
+.award-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--spacing-sm);
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+}

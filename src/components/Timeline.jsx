@@ -10,32 +10,42 @@ const experiences = [
     location: "Vancouver, Canada",
     date: "Sep 2025 - Present",
     description: [
-      "Spearheaded the technical design and migration of the 'Writing Lives' digital archive to a Drupal-based platform, prioritizing scalable architecture and long-term data integrity.",
-      "Designed a culturally sensitive UI/UX framework to secure the digital preservation of historical data in compliance with strict ethical standards."
+      "Spearheaded the technical design of the 'Writing Lives' digital archive utilizing Vanilla JavaScript, intentionally bypassing traditional CMS frameworks to prioritize frontend flexibility and rapid development.",
+      "Engineered a culturally sensitive UI/UX framework, securing the digital preservation of historical data in compliance with strict ethical standards, utilizing modern web protocols."
     ]
   },
   {
     id: 2,
+    role: "Freelance Software Engineer",
+    company: "Unsoldly",
+    location: "Remote",
+    date: "Jun 2025 - Jan 2026",
+    description: [
+      "Engineered a full-stack B2B marketplace connecting electronic component vendors with local businesses, facilitating bulk inventory discovery utilizing React and Spring Boot.",
+      "Architected a geolocation-based vendor discovery engine by integrating Elasticsearch, enabling clients to rapidly filter and locate nearby suppliers with minimal read latency.",
+      "Engineered an automated Continuous Integration (CI) pipeline utilizing Jenkins, ensuring high backend reliability by executing JUnit and Mockito test suites prior to code merges."
+    ]
+  },
+  {
+    id: 3,
     role: "Junior Software Engineer",
     company: "SoluSoft Corporation",
     location: "Ahmedabad, India",
     date: "Nov 2023 - May 2024",
     description: [
-      "Engineered a Fraud Investigation platform by integrating OpenText and ChatGPT APIs, reducing manual data entry time via automated summaries.",
-      "Optimized real-time data processing for enterprise clients by building production-ready applications using React.js and Spring Boot.",
-      "Accelerated team development efficiency by 40% through the creation of 30+ reusable React components during Agile sprints."
+      "Engineered a Fraud Investigation platform, reducing manual data entry time by 30%, by automating email summaries and case reports utilizing OpenText and ChatGPT APIs.",
+      "Optimized real-time data processing pipelines for enterprise clients, handling high-volume transactions with minimal latency, by building production-ready applications utilizing React.js and Spring Boot."
     ]
   },
   {
-    id: 3,
+    id: 4,
     role: "Java Developer Intern",
     company: "Unnati Informatics LLP",
     location: "Ahmedabad, India",
     date: "Feb 2023 - May 2023",
     description: [
-      "Developed a full-stack Expense Manager leveraging Spring Boot (MVC) and MySQL, enabling robust financial tracking.",
-      "Protected sensitive financial data by implementing a secure authentication system utilizing JWT and cookies.",
-      "Rendered real-time spending analytics by creating dynamic data visualization dashboards with JavaScript."
+      "Developed a full-stack Expense Manager, enabling robust financial tracking for end-users, utilizing Spring Boot (MVC) and MySQL.",
+      "Protected sensitive financial data, achieving zero unauthorized access incidents, by implementing a secure authentication system utilizing JWT and cookies."
     ]
   }
 ];

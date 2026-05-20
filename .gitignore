@@ -23,3 +23,17 @@ dist-ssr
 *.sln
 *.sw?
 deployment_instructions.txt
+
+# Raw root assets to ignore
+/Aura Capstone Final Proposal  (4).pdf
+/Aura_System_Architecture.png
+/Aura_TechStack.png
+/Beacon_techstack.png
+/BloomUp_System.png
+/BloomUp_Tech.png
+/BloomUp_proposal (3).pdf
+
+# Ignore large project assets exceeding GitHub limits
+/public/projects/bloomup-proposal.pdf
+
+

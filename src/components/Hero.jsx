@@ -15,10 +15,10 @@ const Hero = () => {
           <p className="hero-greeting">Hi, I'm</p>
           <h1 className="hero-name">Vaibhav Adesara</h1>
           <h2 className="hero-title">
-            <span className="text-gradient">Software Engineer</span> specializing in full-stack development, AI voice/vision integrations, and scalable architectures.
+            <span className="text-gradient">Software Engineer</span> specializing in full-stack development and applied AI integrations.
           </h2>
           <p className="hero-description">
-            I build performant web and mobile applications with a focus on cutting-edge AI technologies and intuitive user experiences.
+            Proven track record of architecting scalable backend systems, optimizing real-time data processing, and delivering secure applications within Agile teams.
           </p>
           
           <div className="hero-actions">

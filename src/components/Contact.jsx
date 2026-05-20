@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -34,6 +34,10 @@ const Contact = () => {
               <a href="mailto:vaibhavcan24@gmail.com" className="contact-item">
                 <div className="icon-wrapper"><Mail size={20} /></div>
                 vaibhavcan24@gmail.com
+              </a>
+              <a href="tel:+17788582920" className="contact-item">
+                <div className="icon-wrapper"><Phone size={20} /></div>
+                +1 (778) 858-2920
               </a>
               <div className="contact-item">
                 <div className="icon-wrapper"><MapPin size={20} /></div>
