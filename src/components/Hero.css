@@ -145,4 +145,23 @@
     width: 100%;
     justify-content: center;
   }
+  .blob {
+    filter: blur(60px);
+  }
+  .blob-1 {
+    width: 85vw;
+    height: 85vw;
+    min-width: 320px;
+    min-height: 320px;
+    top: -5%;
+    left: -20%;
+  }
+  .blob-2 {
+    width: 75vw;
+    height: 75vw;
+    min-width: 280px;
+    min-height: 280px;
+    bottom: -5%;
+    right: -20%;
+  }
 }
