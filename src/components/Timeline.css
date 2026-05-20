@@ -4,7 +4,7 @@
 
 .section-title {
   text-align: center;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .timeline {
@@ -130,6 +130,7 @@
   .timeline-header {
     flex-direction: column;
   }
+
   .timeline-date-location {
     align-items: flex-start;
   }
