@@ -51,7 +51,12 @@ function App() {
     <div className="app-container">
       <nav className="glass-nav">
         <div className="container nav-container">
-          <div className="logo">VA.</div>
+          <div className="logo">
+            <img src="/logo-svg.svg" alt="Vaibhav Adesara Logo" className="logo-img" />
+            <span>Vaibhav.</span>
+          </div>
+
+
 
           {/* Desktop Nav */}
           <div className="nav-links desktop-nav">

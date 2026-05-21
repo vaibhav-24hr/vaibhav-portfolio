@@ -32,6 +32,8 @@ deployment_instructions.txt
 /BloomUp_System.png
 /BloomUp_Tech.png
 /BloomUp_proposal (3).pdf
+/logo-svg.svg
+
 
 # Ignore large project assets exceeding GitHub limits
 /public/projects/bloomup-proposal.pdf
