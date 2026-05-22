@@ -30,6 +30,16 @@ const Hero = () => {
             </a>
           </div>
         </div>
+
+        <div className="hero-photo-wrapper">
+          <div className="hero-photo-ring">
+            <img
+              src="/profile-photo.jpeg"
+              alt="Vaibhav Adesara"
+              className="hero-photo"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
