@@ -1,11 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
-import './Stats.css';
+import React, { useState, useEffect, useRef } from "react";
+import "./Stats.css";
 
 const statsData = [
-  { value: 3, suffix: '+', label: 'Years Experience' },
-  { value: 4, suffix: '+', label: 'Projects Delivered' },
-  { value: 10, suffix: '+', label: 'Technologies' },
-  { value: 3, suffix: '', label: 'Companies Worked' }
+  { value: 1.5, suffix: "+", label: "Years Experience" },
+  { value: 4, suffix: "+", label: "Projects Delivered" },
+  { value: 10, suffix: "+", label: "Technologies" },
+  { value: 3, suffix: "", label: "Companies Worked" },
 ];
 
 const AnimatedCounter = ({ target, suffix, isVisible }) => {
@@ -30,7 +30,12 @@ const AnimatedCounter = ({ target, suffix, isVisible }) => {
     return () => clearInterval(timer);
   }, [target, isVisible]);
 
-  return <span>{count}{suffix}</span>;
+  return (
+    <span>
+      {count}
+      {suffix}
+    </span>
+  );
 };
 
 const Stats = () => {
@@ -45,7 +50,7 @@ const Stats = () => {
           observer.disconnect();
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
     if (sectionRef.current) observer.observe(sectionRef.current);
     return () => observer.disconnect();
@@ -57,7 +62,11 @@ const Stats = () => {
         {statsData.map((stat, idx) => (
           <div key={idx} className="stat-item">
             <div className="stat-value">
-              <AnimatedCounter target={stat.value} suffix={stat.suffix} isVisible={isVisible} />
+              <AnimatedCounter
+                target={stat.value}
+                suffix={stat.suffix}
+                isVisible={isVisible}
+              />
             </div>
             <div className="stat-label">{stat.label}</div>
           </div>
