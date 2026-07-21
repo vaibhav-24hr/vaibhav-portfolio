@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Stats.css";
 
 const statsData = [
-  { value: 1.5, suffix: "+", label: "Years Experience" },
   { value: 4, suffix: "+", label: "Projects Delivered" },
   { value: 10, suffix: "+", label: "Technologies" },
   { value: 3, suffix: "", label: "Companies Worked" },
