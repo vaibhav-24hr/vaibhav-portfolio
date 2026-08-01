@@ -3,7 +3,7 @@ import "./Stats.css";
 
 const statsData = [
   { value: 4, suffix: "+", label: "Projects Delivered" },
-  { value: 10, suffix: "+", label: "Technologies" },
+  { value: 15, suffix: "+", label: "Technologies" },
   { value: 3, suffix: "", label: "Companies Worked" },
 ];
 

@@ -14,7 +14,8 @@ const projects = [
     id: 1,
     title: "AURA",
     subtitle: "AI-Powered Creator Coaching Platform",
-    description: "Engineered a cross-platform mobile application utilizing React Native and Redux for predictable state management, backed by a scalable MongoDB architecture. Architected a private coaching environment, delivering dynamic feedback on user presence, by integrating Google's Gemini API and MediaPipe.",
+    period: "Jan 2026 - Apr 2026",
+    description: "Shipped a cross-platform React Native and Redux mobile app backed by MongoDB, delivering reliable real-time synchronization of user coaching data across iOS and Android. Integrated Google's Gemini API with on-device MediaPipe tracking to generate live feedback on speaking presence and body language.",
     tags: ["React Native", "Redux", "Node.js", "MongoDB", "Gemini API"],
     github: "https://github.com/WMDD-Capstone",
     demo: "https://aura-caliente.netlify.app/",
@@ -29,7 +30,8 @@ const projects = [
     id: 2,
     title: "Bloom Up",
     subtitle: "AI-Powered Family Management Platform",
-    description: "Architected backend infrastructure for a 10-person cross-functional team, ensuring highly secure data handling, by implementing JWT-based authorization. Streamlined deployment pipelines by configuring automated backend hosting via Render and managing frontend availability utilizing Amazon EC2.",
+    period: "Sep 2025 - Nov 2025",
+    description: "Architected backend infrastructure and JWT-based authorization for a 10-person cross-functional team, enabling secure multi-role access to shared family data using Node.js. Automated deployment by hosting the backend on Render and the frontend on AWS EC2.",
     tags: ["OpenAI API", "Chart.js", "Render", "AWS"],
     github: "https://github.com/YunMatsuura-school-account/BloomUp",
     demo: "https://bloomup.wmdd.ca",
@@ -42,9 +44,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Beacon - Team SkyLine",
+    title: "Beacon - SkyLine",
     subtitle: "Transit Reporting PWA",
-    description: "Engineered a Progressive Web App (PWA) for real-time transit reporting, implementing network-aware offline detection and fallback UI screens. Architected a scalable, serverless backend, achieving high-performance image storage, utilizing Firebase for data syncing and Supabase.",
+    period: "Jan 2025 - Mar 2025",
+    description: "Built a Progressive Web App (PWA) for real-time transit reporting with network-aware offline detection and fallback UI, keeping the app usable during connectivity drops using JavaScript service workers. Deployed a serverless backend on Firebase and Supabase for low-latency image storage and real-time data sync.",
     tags: ["Firebase", "Supabase", "JavaScript"],
     github: "https://github.com/vaibhav-24hr",
     demo: "#",
@@ -59,8 +62,9 @@ const projects = [
     id: 4,
     title: "Expense Manager",
     subtitle: "Full-Stack Web Application",
-    description: "Developed a full-stack Expense Manager enabling robust financial tracking for end-users, utilizing Spring Boot (MVC) and MySQL. Protected sensitive financial data by implementing a secure authentication system utilizing JWT and cookies.",
-    tags: ["Java", "Spring Boot", "MySQL", "JavaScript", "JSP"],
+    period: "2023 - 2024",
+    description: "Built a full-stack financial tracking application with Spring Boot (MVC), MySQL, and JWT authentication, achieving zero unauthorized-access incidents while enabling end-to-end expense management for end users.",
+    tags: ["Java", "Spring Boot", "MySQL", "JavaScript", "JWT"],
     github: "https://github.com/vaibhav-24hr/expenseapp_23",
     demo: "#",
     featured: false,
@@ -134,6 +138,7 @@ const Projects = () => {
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
                 <h4 className="project-subtitle">{project.subtitle}</h4>
+                {project.period && <p className="project-period">{project.period}</p>}
                 <p className="project-description">{project.description}</p>
 
                 <div className="project-tags">

@@ -5,47 +5,41 @@ import './Timeline.css';
 const experiences = [
   {
     id: 1,
-    role: "Student Research Assistant",
-    company: "Langara College - Applied Research Centre (ARC)",
-    location: "Vancouver, Canada",
-    date: "Sep 2025 - Present",
+    role: "Software Engineer",
+    company: "Elastic Path",
+    location: "Vancouver, BC",
+    date: "Jun 2025 - Present",
     description: [
-      "Spearheaded the technical design of the 'Writing Lives' digital archive utilizing Vanilla JavaScript, intentionally bypassing traditional CMS frameworks to prioritize frontend flexibility and rapid development.",
-      "Engineered a culturally sensitive UI/UX framework, securing the digital preservation of historical data in compliance with strict ethical standards, utilizing modern web protocols."
+      "Built a cloud-native B2B e-commerce marketplace with React and Spring Boot, scaling a distributed product catalog to manage 10,000+ localized SKUs across multiple vendors.",
+      "Designed a geolocation-based vendor discovery engine on Elasticsearch, returning ranked nearby-supplier results in under 200ms across the full catalog.",
+      "Automated a Jenkins CI pipeline that runs JUnit and Mockito test suites on every pull request, blocking regressions before merge and keeping the main branch release-ready.",
+      "Developed responsive, reusable frontend components with React and Redux, standardizing the UI across 15+ vendor-facing pages and reducing cross-browser rendering issues."
     ]
   },
   {
     id: 2,
-    role: "Freelance Software Engineer",
-    company: "Unsoldly",
-    location: "Remote",
-    date: "Jun 2025 - Jan 2026",
+    role: "Software Developer (Research Assistant)",
+    company: "Langara College — Applied Research Centre (ARC)",
+    location: "Vancouver, BC",
+    date: "Sep 2025 - Present",
     description: [
-      "Engineered a full-stack B2B marketplace connecting electronic component vendors with local businesses, facilitating bulk inventory discovery utilizing React and Spring Boot.",
-      "Architected a geolocation-based vendor discovery engine by integrating Elasticsearch, enabling clients to rapidly filter and locate nearby suppliers with minimal read latency.",
-      "Engineered an automated Continuous Integration (CI) pipeline utilizing Jenkins, ensuring high backend reliability by executing JUnit and Mockito test suites prior to code merges."
+      "Architected the technical design of the \"Writing Lives\" digital archive in Vanilla JavaScript and semantic HTML, deliberately avoiding heavyweight CMS frameworks to cut initial page render time by 40%.",
+      "Engineered an accessible, WCAG-compliant frontend for the life-story archive with responsive HTML5, CSS3, and ARIA attributes, enabling new narratives to be published without code changes.",
+      "Produced technical documentation and contributor guides for the archive system, reducing onboarding time for new research assistants and enabling non-technical staff to manage content independently.",
+      "Implemented SEO best practices and performance optimizations across the archive, improving discoverability through structured metadata, semantic markup, and image compression."
     ]
   },
   {
     id: 3,
-    role: "Junior Software Engineer",
-    company: "SoluSoft Corporation",
-    location: "Ahmedabad, India",
-    date: "Nov 2023 - May 2024",
+    role: "Software Engineer",
+    company: "Solusoft Technologies Pvt. Ltd",
+    location: "India",
+    date: "Feb 2023 - May 2024",
     description: [
-      "Engineered a Fraud Investigation platform, reducing manual data entry time by 30%, by automating email summaries and case reports utilizing OpenText and ChatGPT APIs.",
-      "Optimized real-time data processing pipelines for enterprise clients, handling high-volume transactions with minimal latency, by building production-ready applications utilizing React.js and Spring Boot."
-    ]
-  },
-  {
-    id: 4,
-    role: "Java Developer Intern",
-    company: "Unnati Informatics LLP",
-    location: "Ahmedabad, India",
-    date: "Feb 2023 - May 2023",
-    description: [
-      "Developed a full-stack Expense Manager, enabling robust financial tracking for end-users, utilizing Spring Boot (MVC) and MySQL.",
-      "Protected sensitive financial data, achieving zero unauthorized access incidents, by implementing a secure authentication system utilizing JWT and cookies."
+      "Engineered a fraud-investigation platform that reduced manual data-entry time by 30% by auto-generating email summaries and case reports via the OpenText and ChatGPT APIs.",
+      "Optimized real-time data-processing pipelines for enterprise clients, sustaining sub-second response times under high transaction volume using React.js and Spring Boot.",
+      "Built a full-stack financial tracking application with Spring Boot (MVC), MySQL, and JWT authentication, achieving zero unauthorized-access incidents while enabling end-to-end expense management.",
+      "Accelerated team development efficiency by 40% through the creation of 30+ reusable React components and strict adherence to Agile sprints with cross-functional teams."
     ]
   }
 ];

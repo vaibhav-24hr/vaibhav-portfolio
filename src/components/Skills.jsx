@@ -4,19 +4,23 @@ import './Skills.css';
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Java", "Python", "JavaScript (ES6+)", "Swift"]
+    skills: ["Java (OOP)", "Python", "JavaScript (ES6+)", "Swift (Programmatic UI)", "SQL"]
   },
   {
     title: "Frameworks & Libraries",
-    skills: ["Spring Boot", "React.js", "React Native", "Node.js", "Hibernate", "Redux"]
+    skills: ["Spring Boot", "Spring MVC", "Hibernate", "React.js", "React Native", "Redux", "Node.js"]
   },
   {
     title: "Databases & Infrastructure",
-    skills: ["MongoDB", "MySQL", "PostgreSQL", "Elasticsearch", "Supabase", "Firebase"]
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Elasticsearch", "Supabase", "Firebase"]
   },
   {
-    title: "Cloud, DevOps & Tooling",
-    skills: ["AWS", "Docker", "Jenkins", "Git", "AI-Assisted Dev"]
+    title: "Cloud, DevOps & Tools",
+    skills: ["AWS (EC2)", "Docker", "CI/CD (Jenkins)", "Git", "Linux", "Cursor IDE"]
+  },
+  {
+    title: "Architecture & AI",
+    skills: ["RESTful APIs", "Microservices", "LLM API Integration", "Multi-Agent Systems", "Event-Driven Design"]
   }
 ];
 

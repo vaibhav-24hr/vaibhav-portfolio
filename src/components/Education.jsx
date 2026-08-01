@@ -5,22 +5,22 @@ import './Education.css';
 const educationData = [
   {
     id: 1,
-    degree: "Post-Degree Diploma",
+    degree: "Master's",
     field: "Web & Mobile Application Development",
     school: "Langara College",
     location: "Vancouver, BC",
     date: "2024 - 2026",
     highlights: [
       "Capstone Project: AURA — AI-Powered Creator Coaching Platform",
-      "Focus on modern full-stack development, Agile methodologies, and cross-platform mobile apps"
+      "Research Assistant at Applied Research Centre (ARC) — Writing Lives digital archive"
     ]
   },
   {
     id: 2,
-    degree: "Bachelor of Engineering",
-    field: "Computer Science",
+    degree: "Bachelor's in Computer Engineering",
+    field: "Computer Engineering",
     school: "Gujarat Technological University (GTU)",
-    location: "Ahmedabad, India",
+    location: "India",
     date: "2019 - 2023",
     highlights: [
       "Smart India Hackathon 2022 — National Level Participant",

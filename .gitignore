@@ -38,4 +38,9 @@ deployment_instructions.txt
 # Ignore large project assets exceeding GitHub limits
 /public/projects/bloomup-proposal.pdf
 
-
+# Personal resumes — keep local only, do not publish to GitHub
+*Resume*.pdf
+*resume*.pdf
+Vaibhav_Base_Resume*.pdf
+/docs/*Resume*.pdf
+/docs/*resume*.pdf
