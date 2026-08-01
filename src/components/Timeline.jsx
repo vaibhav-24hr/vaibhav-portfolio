@@ -18,10 +18,10 @@ const experiences = [
   },
   {
     id: 2,
-    role: "Software Developer (Research Assistant)",
+    role: "Research Software Developer",
     company: "Langara College — Applied Research Centre (ARC)",
     location: "Vancouver, BC",
-    date: "Sep 2025 - Present",
+    date: "Sep 2025 - Apr 2026",
     description: [
       "Architected the technical design of the \"Writing Lives\" digital archive in Vanilla JavaScript and semantic HTML, deliberately avoiding heavyweight CMS frameworks to cut initial page render time by 40%.",
       "Engineered an accessible, WCAG-compliant frontend for the life-story archive with responsive HTML5, CSS3, and ARIA attributes, enabling new narratives to be published without code changes.",
@@ -40,6 +40,17 @@ const experiences = [
       "Optimized real-time data-processing pipelines for enterprise clients, sustaining sub-second response times under high transaction volume using React.js and Spring Boot.",
       "Built a full-stack financial tracking application with Spring Boot (MVC), MySQL, and JWT authentication, achieving zero unauthorized-access incidents while enabling end-to-end expense management.",
       "Accelerated team development efficiency by 40% through the creation of 30+ reusable React components and strict adherence to Agile sprints with cross-functional teams."
+    ]
+  },
+  {
+    id: 4,
+    role: "Java Developer Intern",
+    company: "Unnati Informatics LLP",
+    location: "Ahmedabad, India",
+    date: "Nov 2022 - Jan 2023",
+    description: [
+      "Developed a full-stack Expense Manager, enabling robust financial tracking for end-users, utilizing Spring Boot (MVC) and MySQL.",
+      "Protected sensitive financial data, achieving zero unauthorized access incidents, by implementing a secure authentication system utilizing JWT and cookies."
     ]
   }
 ];

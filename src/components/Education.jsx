@@ -12,7 +12,7 @@ const educationData = [
     date: "2024 - 2026",
     highlights: [
       "Capstone Project: AURA — AI-Powered Creator Coaching Platform",
-      "Research Assistant at Applied Research Centre (ARC) — Writing Lives digital archive"
+      "Research Software Developer at Applied Research Centre (ARC) — Writing Lives digital archive"
     ]
   },
   {
