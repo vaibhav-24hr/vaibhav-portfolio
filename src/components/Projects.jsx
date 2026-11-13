@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Sparkles, FileText, X, ZoomIn, Server } from 'lucide-react';
+import { ExternalLink, Sparkles, FileText, X, ZoomIn } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -35,7 +35,6 @@ const projects = [
     tags: ["OpenAI API", "Chart.js", "Render", "AWS"],
     github: "https://github.com/vaibhav-24hr/BloomUp",
     demo: "https://bloomup.onrender.com",
-    api: "https://bloomup-api.onrender.com",
     featured: false,
     images: {
       architecture: "/projects/bloomup-architecture.png",
@@ -155,11 +154,6 @@ const Projects = () => {
                   {project.demo && project.demo !== '#' && (
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
                       <ExternalLink size={20} /> Live Demo
-                    </a>
-                  )}
-                  {project.api && (
-                    <a href={project.api} target="_blank" rel="noopener noreferrer" className="project-link">
-                      <Server size={20} /> Backend API
                     </a>
                   )}
                   {project.proposal && (
