@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Sparkles, FileText, X, ZoomIn } from 'lucide-react';
+import { ExternalLink, Sparkles, FileText, X, ZoomIn, Server } from 'lucide-react';
 
 const GithubIcon = ({ size = 24 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -33,8 +33,9 @@ const projects = [
     period: "Sep 2025 - Nov 2025",
     description: "Architected backend infrastructure and JWT-based authorization for a 10-person cross-functional team, enabling secure multi-role access to shared family data using Node.js. Automated deployment by hosting the backend on Render and the frontend on AWS EC2.",
     tags: ["OpenAI API", "Chart.js", "Render", "AWS"],
-    github: "https://github.com/YunMatsuura-school-account/BloomUp",
-    demo: "https://bloomup.wmdd.ca",
+    github: "https://github.com/vaibhav-24hr/BloomUp",
+    demo: "https://bloomup.onrender.com",
+    api: "https://bloomup-api.onrender.com",
     featured: false,
     images: {
       architecture: "/projects/bloomup-architecture.png",
@@ -154,6 +155,11 @@ const Projects = () => {
                   {project.demo && project.demo !== '#' && (
                     <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
                       <ExternalLink size={20} /> Live Demo
+                    </a>
+                  )}
+                  {project.api && (
+                    <a href={project.api} target="_blank" rel="noopener noreferrer" className="project-link">
+                      <Server size={20} /> Backend API
                     </a>
                   )}
                   {project.proposal && (
